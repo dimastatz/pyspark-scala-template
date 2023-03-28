@@ -1,11 +1,14 @@
 # Apache Spark project template
 
 ## Background
-In today's data-driven world, collaboration between data engineers and data scientists is critical for the success of any data project. Data engineers are responsible for designing and building the infrastructure required for data storage, processing, and transformation. Data scientists, on the other hand, are responsible for developing and deploying machine learning models and deriving insights from the data. To ensure productive collaboration between these two groups, there are some challenges to address: what are responsibilities of each group, how they communicate, how they establish quality standards, etc. And probably the most challenging questions is what common tools and frameworks can be used by data scientists and data engineers to develop, maintain and ship products?  
+In today's data-driven world, collaboration between data engineers and data scientists is critical for the success of any data project. Data engineers are responsible for designing and building the infrastructure required for data storage, processing, and transformation. Data scientists, on the other hand, are responsible for developing and deploying machine learning models and deriving insights from the data. To ensure productive collaboration between these two groups, there are some challenges to address: how they communicate, how they work on the same codebase, how they establish code quality standards, what common tools and frameworks they can use?   
+
+## Programming Skills
+Data scientists and data engineers work closely together in data-driven organizations, but usually they have different skillsets. Data scientists are proficient in programming languages such as Python, R, and SQL to analyze data, build predictive models, and communicate insights. Data engineers are proficient in programming languages such as Java, Scala, and Python to build and maintain data pipelines, and create data architecture. Productive collaboration between data engineers and data scientists is possible if they are using a framework that supports all (most) these programming languages.
 
 
 ## Apache Spark
-[Apache Spark](https://spark.apache.org/) is a powerful open-source data processing framework that supports multiple programming languages, including Scala and Python. Combining these two languages in a single Spark project can be advantageous because it allows developers to leverage the strengths of both languages and their associated libraries. Another huge advantage of combining Scala and Python is to allow for two Data Science and Data engineering audiences working together. 
+[Apache Spark](https://spark.apache.org/) is a powerful open-source data processing framework that supports multiple programming languages, including Java, Scala, Python, SQL and R. Data scientists can use Apache Spark for various tasks such as data cleaning, feature engineering, model training, and evaluation. They can write code in Python or R using Spark's APIs to process large-scale data and build predictive models. Data engineers can use Apache Spark for tasks such as data ingestion, data transformation, and ETL (extract, transform, load) processes. They can write code in Scala or Java using Spark's APIs to build efficient data pipelines and process data in a distributed manner.
 
 
 ## Python
