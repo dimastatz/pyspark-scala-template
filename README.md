@@ -1,4 +1,4 @@
-# Apache Spark project template
+# Apache Spark Project Template
 
 ## Background
 In today's data-driven world, collaboration between data engineers and data scientists is critical for the success of any data project. [Data engineers](https://en.wikipedia.org/wiki/Data_engineering) are responsible for designing and building the infrastructure required for data storage, processing, and transformation. [Data scientists](https://en.wikipedia.org/wiki/Data_science), on the other hand, are responsible for developing and deploying machine learning models and deriving insights from the data. To ensure productive collaboration between these two groups, there are some challenges to address: how they communicate, how they work on the same codebase, how they establish code quality standards, what common tools and frameworks they can use?   
