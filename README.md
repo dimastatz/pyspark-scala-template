@@ -11,7 +11,37 @@ Data scientists and data engineers work closely together in data-driven organiza
 [Apache Spark](https://spark.apache.org/) is a powerful open-source data processing framework that supports multiple programming languages, including Java, Scala, Python, SQL and R. Data scientists can use Apache Spark for various tasks such as data cleaning, feature engineering, model training, and evaluation. They can write code in Python or R using Spark's APIs to process large-scale data and build predictive models. Data engineers can use Apache Spark for tasks such as data ingestion, data transformation, and ETL (extract, transform, load) processes. They can write code in Scala or Java using Spark's APIs to build efficient data pipelines and process data in a distributed manner.
 
 
-## Python
+## Project Structure
+Here's an example folder structure for an Apache Spark project that combines Python and Scala, has a Dockerfile, contains tests in both Scala and Python, and has a docs folder:
+
+```bash
+project/
+├── docker/
+│   └── Dockerfile
+├── python/
+│   ├── script.py
+│   ├── requirements.txt
+│   └── tests/
+│       └── test_script.py
+├── scala/
+│   ├── build.sbt
+│   ├── project/
+│   │   ├── build.properties
+│   │   └── plugins.sbt
+│   └── src/
+│       ├── main/
+│       │   ├── resources/
+│       │   └── scala/
+│       │       └── script.scala
+│       └── test/
+│           └── scala/
+│               └── TestScript.scala
+├── docs/
+│   ├── README.md
+│   └── documentation.md
+└── README.md
+
+```
 
 
 
