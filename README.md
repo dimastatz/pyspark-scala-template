@@ -19,4 +19,7 @@ Data scientists and data engineers work closely together in data-driven organiza
 
 
 ## Project Structure
-This project is a GitHub project template, that is designed to help developers get started quickly with Apache Spark projects. This template provides a consistent structure for projects that use Python to develop Spark applications and use Scala to implement compute-intensive UDFs, custom Apache Spark connectors, and use/extend low-level Apache Spark resources. 
+This project is a GitHub project template, that is designed to help developers get started quickly with Apache Spark projects. This template provides a consistent structure for projects that use Python to develop Spark applications and use Scala to implement compute-intensive UDFs, custom Apache Spark connectors, and use/extend low-level Apache Spark resources.
+
+
+
