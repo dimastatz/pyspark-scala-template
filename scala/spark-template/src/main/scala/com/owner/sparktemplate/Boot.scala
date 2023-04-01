@@ -5,18 +5,20 @@ import org.apache.spark.sql._
 
 object Boot {
   // TODO: take properties from conf file
-  def createSparkSession(): SparkSession = {
-    SparkSession
-      .builder()
-      .master("local[1]")
-      .appName("spark-template")
-      .config("spark.driver.bindAddress", "127.0.0.1")
-      .getOrCreate()
+  def createSparkSession(): Try[SparkSession] = {
+    Try {
+      SparkSession
+        .builder()
+        .master("local[1]")
+        .appName("spark-template")
+        .config("spark.driver.bindAddress", "127.0.0.1")
+        .getOrCreate()
+    }
   }
 
   def main(args: Array[String]): Unit = {
     println("Starting Spark-Template App")
-    Try(createSparkSession()) match {
+    createSparkSession() match {
       case Success(session) =>
         println("Hello SparkSession")
         session.close()
